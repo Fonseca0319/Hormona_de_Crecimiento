@@ -1,0 +1,45 @@
+﻿@page
+@model Hormona.App.Pages_BDFamiliar.EditModel
+@{
+}
+<form method="post">
+    <input type="hidden" asp-for="Familiar.id"/>
+    <div class="form-group">
+        <label>Nombre</label>
+        <input asp-for="Familiar.nombre" placeholder="Digite el nombre del Familiar" class="form-control"/> 
+    </div>
+     <div class="form-group">
+        <label>Apellidos</label>
+        <input asp-for="Familiar.apellido" placeholder="Digite los apellidos del Familiar" class="form-control"/>
+    </div>
+     <div class="form-group">
+        <label>Telefono</label>
+        <input asp-for="Familiar.telefono" placeholder="Digite el telefono del Familiar" class="form-control"/> 
+    </div>
+     </div>
+     <div class="form-group">
+        <label>Documento</label>
+        <input asp-for="Familiar.documento" placeholder="Digite el documento del Familiar" class="form-control"/>
+    </div>
+    <label>Sexo</label>
+     <div class="form-group">
+        <select asp-for="Familiar.sexos" class="form-control">
+            <option selected>Sexo..</option>
+            <option value=0>Femenino</option>
+            <option value=1>Masculino</option>
+        </select>
+
+    </div>
+     </div>
+     <div class="form-group">
+        <label>Parentesco</label>
+        <input asp-for="Familiar.parentesco" placeholder="Digite el parentesco del Familiar" class="form-control"/>
+    </div>
+     </div>
+     <div class="form-group">
+        <label>Email</label>
+        <input asp-for="Familiar.email" placeholder="Digite la direccion del Familiar" class="form-control"/>
+      </div>
+            </div>
+    <button type="submit" class="btn btn-primary" asp-page-handler="Edit">Editar</button>
+</form>

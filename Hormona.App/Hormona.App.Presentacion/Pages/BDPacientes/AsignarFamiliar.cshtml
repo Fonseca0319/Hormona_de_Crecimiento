@@ -1,0 +1,41 @@
+﻿@page
+@model Hormona.App.Pages_BDPacientes.AsignarFamiliarModel
+@{
+}
+<form method="post">
+    <input type="hidden" asp-for="Paciente.id">
+    <h1>Asignar Familiar</h1>
+    <table class="table table=bordered">
+        <thead >
+            <tr>
+            <th scoope="col">Nombre</th>
+            <th scoope="col">Apellidos</th>
+            <th scoope="col">Telefono</th>
+            <th scoope="col">Sexo</th>
+            <th scoope="col">Documento</th>
+            <th scoope="col">Parentesco</th>
+            <th scoope="col">Email</th>
+            
+          
+            </tr>
+        </thead>
+        @foreach (var familiar in Model.Familiares){
+            <tbody>
+                <tr>
+                    <td>@familiar.nombre</td>
+                    <td>@familiar.apellido</td>
+                    <td>@familiar.telefono</td>
+                    <td>@familiar.sexos</td>
+                    <td>@familiar.documento</td>
+                    <td>@familiar.parentesco</td>
+                     <td>@familiar.email</td>
+                    <td>
+                        <input type="checkbox" name="familiarid" value="@familiar.id"/>
+                    </td>
+                </tr>
+            </tbody>
+        }
+        
+    </table>
+    <button type="submit" class="btn btn-primary" asp-page-handler="ToAssign">Asignar</button>
+</form>

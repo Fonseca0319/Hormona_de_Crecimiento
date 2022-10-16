@@ -1,0 +1,33 @@
+﻿@page
+@model Hormona.App.Pages_BDFamiliar.DeleteModel
+@{
+}
+<h1>Seguro quieres eliminar este familiar</h1>
+<div>
+    <h4>Familiar</h4>
+    <d1 class="row">
+        <dt class="col-sm-2">Nombre</dt>
+        <dd class="col-sm-10">@Model.Familiar.nombre</dd>
+         <dt class="col-sm-2">Apellido</dt>
+        <dd class="col-sm-10">@Model.Familiar.apellido</dd>
+         <dt class="col-sm-2">Telefono</dt>
+        <dd class="col-sm-10">@Model.Familiar.telefono</dd>
+         <dt class="col-sm-2">Sexo</dt>
+        <dd class="col-sm-10">@Model.Familiar.sexos</dd>
+        <dt class="col-sm-2">Documento</dt>
+        <dd class="col-sm-10">@Model.Familiar.documento</dd>
+         <dt class="col-sm-2">Parentesco</dt>
+        <dd class="col-sm-10">@Model.Familiar.parentesco</dd>
+         <dt class="col-sm-2">Email</dt>
+        <dd class="col-sm-10">@Model.Familiar.email</dd>
+   
+  
+
+    
+    </d1>
+</div>
+<form method="post">
+    <input type="hidden" asp-for="Familiar.id"/>
+    <button type="submit" class="btn btn-primary" asp-page-handler="Delete">Delete</button>
+<a asp-page="./Index">Back to list</a>
+</form>

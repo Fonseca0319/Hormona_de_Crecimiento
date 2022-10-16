@@ -1,0 +1,31 @@
+﻿@page
+@model Hormona.App.Pages_BDPacientes.AddPatronesModel
+@{
+}
+<h1>add Patrones de Crecimiento</h1>
+<form method="post">
+    <input type="hidden" asp-for="Paciente.id"/>
+    <div class="form group">
+        <label>Patrones de Crecimiento</label>
+        <select asp.for="PatronDeCrecimiento.PatronesDeCrecimineto" class="form-control">
+            <option value="0">peso</option>
+            <option value="1">perimentroCefalico</option>
+            <option value="2">talla</option>
+            <option value="3">mediddaAbdominal</option>
+        </select>
+    </div>  
+    <div class="form-group">
+        <label>valor</label>
+        <input asp-for="PatronDeCrecimineto.valor" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label>fecha</label>
+        <input asp-for="PatronDeCrecimineto.fechaHora" class="form-control"/>
+    </div>
+    <div class="form group">
+        <button type="submit" class="btn btn-primary" asp-page-handler="Save">AddPatron</button>
+        <a asp-page="./Index">Back To list</a>
+    </div>
+
+</form>
+

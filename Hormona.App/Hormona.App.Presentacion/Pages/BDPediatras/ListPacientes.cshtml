@@ -1,0 +1,51 @@
+﻿@page
+@model Hormona.App.Pages_BDPediatras.ListPacientesModel
+@{
+}
+<form method="get">
+    <div class="form-group">
+        <p>
+            id Pediatra:<input type="text" name="GetFilters" asp-for="GetFilters">
+            <input type="submit" value="Filter"/> 
+        </p>
+    </div>
+</form>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellidos</th>
+            <th scope="col">Telefeno</th>
+            <th scope="col">Sexo</th>
+             <th scope="col">Patrones de Crecimiento</th>   
+      
+
+
+        </tr>
+        </thead>
+        <a asp-page="./Index">Back to list</a>
+        
+    @foreach (var paciente in Model.Pacientes)
+    {
+        <tbody>
+            <tr>
+                <td>@paciente.nombre</td>
+                <td>@paciente.apellido</td>
+                <td>@paciente.telefono</td>
+                <td>@paciente.sexos</td>
+                <td>
+              <a asp-page="./ListaPatrones" asp-route-id="@paciente.id">
+              <span class="material-icons">description</span></a>
+              
+                </td>
+                
+            </tr>
+             
+
+        </tbody>
+        
+
+        {
+        }
+    }
+</table>

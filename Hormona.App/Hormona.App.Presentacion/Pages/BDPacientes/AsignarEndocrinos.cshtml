@@ -1,0 +1,37 @@
+﻿@page
+@model Hormona.App.Pages_BDPacientes.AsignarEndocrinosModel
+@{
+}
+<form method="post">
+    <input type="hidden" asp-for="Paciente.id">
+    <h1>Asignar Endocrino</h1>
+    <table class="table table=bordered">
+        <thead >
+            <tr>
+            <th scoope="col">Nombre</th>
+            <th scoope="col">Apellidos</th>
+            <th scoope="col">Telefono</th>
+            <th scoope="col">Sexo</th>
+            <th scoope="col">Codigo</th>
+          
+            </tr>
+        </thead>
+        @foreach (var endocrino in Model.Endocrinos){
+            <tbody>
+                <tr>
+                    <td>@endocrino.nombre</td>
+                    <td>@endocrino.apellido</td>
+                    <td>@endocrino.telefono</td>
+                    <td>@endocrino.sexos</td>
+                    <td>@endocrino.codigo</td>
+                    <td>@endocrino.registro</td>
+                    <td>
+                        <input type="checkbox" name="endocrinoid" value="@endocrino.id"/>
+                    </td>
+                </tr>
+            </tbody>
+        }
+        
+    </table>
+    <button type="submit" class="btn btn-primary" asp-page-handler="ToAssign">Asignar</button>
+</form>

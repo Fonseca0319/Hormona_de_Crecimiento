@@ -1,0 +1,45 @@
+﻿@page
+@model Hormona.App.Pages_BDEndocrinos.CreateModel
+@{
+}
+<form method="post">
+    <div asp-validation-sumary="ModelOnly"></div>
+    <div class="form-group">
+        <label>Nombre</label>
+        <input asp-for="Endocrino.nombre" placeholder="Digite el nombre del Endocrino" class="form-control"/>    
+    </div>
+     <div class="form-group">
+        <label>Apellidos</label>
+        <input asp-for="Endocrino.apellido" placeholder="Digite los apellidos del Endocrino" class="form-control"/>
+    </div>
+     <div class="form-group">
+        <label>Telefono</label>
+        <input asp-for="Endocrino.telefono" placeholder="Digite el telefono del Endocrino" class="form-control"/>
+    </div>
+     </div>
+     <div class="form-group">
+        <label>Documento</label>
+        <input asp-for="Endocrino.documento" placeholder="Digite el documento del Endocrino" class="form-control"/>
+    </div>
+    <label>Sexo</label>
+     <div class="form-group">
+        <select asp-for="Endocrino.sexos" class="form-control">
+            <option selected>Sexo..</option>
+            <option value=0>Femenino</option>
+            <option value=1>Masculino</option>
+        </select>
+
+    </div>
+     </div>
+     <div class="form-group">
+        <label>Codigo</label>
+        <input asp-for="Endocrino.codigo" placeholder="Digite el codigo del Endocrino" class="form-control"/>
+    </div>
+     </div>
+     <div class="form-group">
+        <label>Registro</label>
+        <input asp-for="Endocrino.registro" placeholder="Digite el registro del Endocrino" class="form-control"/>
+    </div>
+          
+    <button type="submit" class="btn btn-primary" asp-page-handler="Save">Crear</button>
+</form>

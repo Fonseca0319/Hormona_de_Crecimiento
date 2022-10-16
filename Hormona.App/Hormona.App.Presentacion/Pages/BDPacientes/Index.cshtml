@@ -1,0 +1,54 @@
+﻿@page
+@model Hormona.App.Pages_BDPacientes.IndexModel
+@{
+}
+<div class="container" >
+    <div class="row">
+
+<h1>Lista de Pacientes</h1>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellidos</th>
+            <th scope="col">Telefeno</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Opciones<a asp-page="./Create">
+                    <span class="material-icons">person_add</span></a></th>
+
+
+        </tr>
+        </div>
+    </thead>
+    @foreach (var paciente in Model.pacientes)
+    {
+        <tbody>
+            <tr>
+                <td>@paciente.nombre</td>
+                <td>@paciente.apellido</td>
+                <td>@paciente.telefono</td>
+                <td>@paciente.sexos</td>
+                <td>
+                    <a asp-page="./Details" asp-route-id="@paciente.id">
+                        <span class="material-icons">description</span></a>
+                    <a asp-page="./Edit" asp-route-id="@paciente.id">
+                        <span class="material-icons">edit</span></a>
+                    <a asp-page="./Delete" asp-route-id="@paciente.id">
+                        <span class="material-icons">delete</span></a>
+                          <a asp-page="./AsignarPediatra" asp-route-id="@paciente.id">
+                        <span class="material-icons">medical_services</span></a>
+                         <a asp-page="./AsignarEndocrinos" asp-route-id="@paciente.id">
+                        <span class="material-icons">medication</span></a>
+                        <a asp-page="./AddPatrones" asp-route-id="@paciente.id">
+                        <span class="material-icons">thermostat_auto</span></a>
+                        <a asp-page="./AsignarFamiliar" asp-route-id="@paciente.id">
+                        <span class="material-icons">family_restroom</span></a>
+                </td>
+            </tr>
+
+        </tbody>
+
+        {
+        }
+    }
+</table>

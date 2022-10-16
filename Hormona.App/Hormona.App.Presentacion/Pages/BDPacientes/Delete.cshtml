@@ -1,0 +1,35 @@
+﻿@page
+@model Hormona.App.Pages_BDPacientes.DeleteModel
+@{
+}
+<h1>Seguro quieres eliminar este paciente</h1>
+<div>
+    <h4>Paciente</h4>
+    <d1 class="row">
+        <dt class="col-sm-2">Nombre</dt>
+        <dd class="col-sm-10">@Model.Paciente.nombre</dd>
+         <dt class="col-sm-2">Apellido</dt>
+        <dd class="col-sm-10">@Model.Paciente.apellido</dd>
+         <dt class="col-sm-2">Telefono</dt>
+        <dd class="col-sm-10">@Model.Paciente.telefono</dd>
+         <dt class="col-sm-2">Sexo</dt>
+        <dd class="col-sm-10">@Model.Paciente.sexos</dd>
+         <dt class="col-sm-2">Fecha de Nacimineto</dt>
+        <dd class="col-sm-10">@Model.Paciente.fechaDeNacimineto</dd>
+         <dt class="col-sm-2">Documento</dt>
+        <dd class="col-sm-10">@Model.Paciente.documento</dd>
+         <dt class="col-sm-2">Latitud</dt>
+        <dd class="col-sm-10">@Model.Paciente.latitud</dd>
+         <dt class="col-sm-2">Longitud</dt>
+        <dd class="col-sm-10">@Model.Paciente.longitud</dd>
+        
+  
+
+    
+    </d1>
+</div>
+<form method="post">
+    <input type="hidden" asp-for="Paciente.id"/>
+    <button type="submit" class="btn btn-primary" asp-page-handler="Delete">Delete</button>
+<a asp-page="./Index">Back to list</a>
+</form>

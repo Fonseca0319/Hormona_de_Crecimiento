@@ -1,0 +1,45 @@
+﻿@page
+@model Hormona.App.Pages_BDPediatras.CreateModel
+@{
+}
+<form method="post">
+    <div asp-validation-sumary="ModelOnly"></div>
+    <div class="form-group">
+        <label>Nombre</label>
+        <input asp-for="Pediatra.nombre" placeholder="Digite el nombre del Pediatra" class="form-control"/>    
+    </div>
+     <div class="form-group">
+        <label>Apellidos</label>
+        <input asp-for="Pediatra.apellido" placeholder="Digite los apellidos del Pediatra" class="form-control"/>
+    </div>
+     <div class="form-group">
+        <label>Telefono</label>
+        <input asp-for="Pediatra.telefono" placeholder="Digite el telefono del Pediatra" class="form-control"/>
+    </div>
+     </div>
+     <div class="form-group">
+        <label>Documento</label>
+        <input asp-for="Pediatra.documento" placeholder="Digite el documento del Pediatra" class="form-control"/>
+    </div>
+    <label>Sexo</label>
+     <div class="form-group">
+        <select asp-for="Pediatra.sexos" class="form-control">
+            <option selected>Sexo..</option>
+            <option value=0>Femenino</option>
+            <option value=1>Masculino</option>
+        </select>
+
+    </div>
+     </div>
+     <div class="form-group">
+        <label>Codigo</label>
+        <input asp-for="Pediatra.codigo" placeholder="Digite el codigo del Pediatra" class="form-control"/>
+    </div>
+     </div>
+     <div class="form-group">
+        <label>Registro</label>
+        <input asp-for="Pediatra.registro" placeholder="Digite el registro del Pediatra" class="form-control"/>
+    </div>
+          
+    <button type="submit" class="btn btn-primary" asp-page-handler="Save">Crear</button>
+</form>

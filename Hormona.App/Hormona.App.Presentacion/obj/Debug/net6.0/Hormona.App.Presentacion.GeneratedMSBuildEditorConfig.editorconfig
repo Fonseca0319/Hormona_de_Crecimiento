@@ -1,0 +1,164 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Hormona.App.Presentacion
+build_property.RootNamespace = Hormona.App.Presentacion
+build_property.ProjectDir = C:\proyectoCiclo3\Hormona.App\Hormona.App.Presentacion\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\proyectoCiclo3\Hormona.App\Hormona.App.Presentacion
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/BDEndocrinos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRFbmRvY3Jpbm9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/BDEndocrinos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRFbmRvY3Jpbm9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/BDEndocrinos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRFbmRvY3Jpbm9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/BDFamiliar/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRGYW1pbGlhclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/BDFamiliar/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRGYW1pbGlhclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/BDFamiliar/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRGYW1pbGlhclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/BDFamiliar/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRGYW1pbGlhclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/BDFamiliar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRGYW1pbGlhclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/BDPacientes/AddPatrones.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRQYWNpZW50ZXNcQWRkUGF0cm9uZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/BDPacientes/AsignarEndocrinos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRQYWNpZW50ZXNcQXNpZ25hckVuZG9jcmlub3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/BDPacientes/AsignarFamiliar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRQYWNpZW50ZXNcQXNpZ25hckZhbWlsaWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/BDPacientes/AsignarPediatra.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRQYWNpZW50ZXNcQXNpZ25hclBlZGlhdHJhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/BDPacientes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRQYWNpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/BDPacientes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRQYWNpZW50ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/BDPacientes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRQYWNpZW50ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/BDPacientes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRQYWNpZW50ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/BDPacientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRQYWNpZW50ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/BDPediatras/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRQZWRpYXRyYXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/BDPediatras/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRQZWRpYXRyYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/BDPediatras/ListPacientes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkRQZWRpYXRyYXNcTGlzdFBhY2llbnRlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/MPacientes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTVBhY2llbnRlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/MPacientes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTVBhY2llbnRlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/MPacientes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTVBhY2llbnRlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/MPacientes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTVBhY2llbnRlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/MPacientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTVBhY2llbnRlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/MPediatras/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTVBlZGlhdHJhc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/MPediatras/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTVBlZGlhdHJhc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/MPediatras/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTVBlZGlhdHJhc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/MPediatras/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTVBlZGlhdHJhc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/MPediatras/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTVBlZGlhdHJhc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/proyectoCiclo3/Hormona.App/Hormona.App.Presentacion/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-n51jj979tb

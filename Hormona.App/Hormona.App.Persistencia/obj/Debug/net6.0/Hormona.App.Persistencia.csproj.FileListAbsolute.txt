@@ -1,0 +1,17 @@
+C:\proyectoCiclo3\Hormona.App\Hormona.App.Persistencia\bin\Debug\net6.0\Hormona.App.Persistencia.deps.json
+C:\proyectoCiclo3\Hormona.App\Hormona.App.Persistencia\bin\Debug\net6.0\Hormona.App.Persistencia.runtimeconfig.json
+C:\proyectoCiclo3\Hormona.App\Hormona.App.Persistencia\bin\Debug\net6.0\Hormona.App.Persistencia.dll
+C:\proyectoCiclo3\Hormona.App\Hormona.App.Persistencia\bin\Debug\net6.0\Hormona.App.Persistencia.pdb
+C:\proyectoCiclo3\Hormona.App\Hormona.App.Persistencia\bin\Debug\net6.0\Hormona.App.Dominio.dll
+C:\proyectoCiclo3\Hormona.App\Hormona.App.Persistencia\bin\Debug\net6.0\Hormona.App.Dominio.pdb
+C:\proyectoCiclo3\Hormona.App\Hormona.App.Persistencia\obj\Debug\net6.0\Hormona.App.Persistencia.csproj.AssemblyReference.cache
+C:\proyectoCiclo3\Hormona.App\Hormona.App.Persistencia\obj\Debug\net6.0\Hormona.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyectoCiclo3\Hormona.App\Hormona.App.Persistencia\obj\Debug\net6.0\Hormona.App.Persistencia.AssemblyInfoInputs.cache
+C:\proyectoCiclo3\Hormona.App\Hormona.App.Persistencia\obj\Debug\net6.0\Hormona.App.Persistencia.AssemblyInfo.cs
+C:\proyectoCiclo3\Hormona.App\Hormona.App.Persistencia\obj\Debug\net6.0\Hormona.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\proyectoCiclo3\Hormona.App\Hormona.App.Persistencia\obj\Debug\net6.0\Hormona.App.Persistencia.csproj.CopyComplete
+C:\proyectoCiclo3\Hormona.App\Hormona.App.Persistencia\obj\Debug\net6.0\Hormona.App.Persistencia.dll
+C:\proyectoCiclo3\Hormona.App\Hormona.App.Persistencia\obj\Debug\net6.0\refint\Hormona.App.Persistencia.dll
+C:\proyectoCiclo3\Hormona.App\Hormona.App.Persistencia\obj\Debug\net6.0\Hormona.App.Persistencia.pdb
+C:\proyectoCiclo3\Hormona.App\Hormona.App.Persistencia\obj\Debug\net6.0\Hormona.App.Persistencia.genruntimeconfig.cache
+C:\proyectoCiclo3\Hormona.App\Hormona.App.Persistencia\obj\Debug\net6.0\ref\Hormona.App.Persistencia.dll

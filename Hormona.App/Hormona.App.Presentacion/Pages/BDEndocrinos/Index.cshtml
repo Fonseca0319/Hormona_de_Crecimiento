@@ -1,0 +1,42 @@
+﻿@page
+@model Hormona.App.Pages_BDEndocrinos.IndexModel
+@{
+}
+<h1>Lista de Endocrinos</h1>
+<table class="table table-bordered table-dark">
+    <thead>
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellidos</th>
+            <th scope="col">Telefeno</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Opciones<a asp-page="./Create">
+                    <span class="material-icons">person_add</span></a></th>
+
+
+        </tr>
+    </thead>
+    @foreach (var Endocrino in Model.Endocrinos)
+    {
+        <tbody>
+            <tr>
+                <td>@Endocrino.nombre</td>
+                <td>@Endocrino.apellido</td>
+                <td>@Endocrino.telefono</td>
+                <td>@Endocrino.sexos</td>
+                <td>
+                    <a asp-page="./Details" asp-route-id="@Endocrino.id">
+                        <span class="material-icons">description</span></a>
+                    <a asp-page="./Edit" asp-route-id="@Endocrino.id">
+                        <span class="material-icons">edit</span></a>
+                    <a asp-page="./Delte" asp-route-id="@Endocrino.id">
+                        <span class="material-icons">delete</span></a>
+                </td>
+            </tr>
+
+        </tbody>
+
+        {
+        }
+    }
+</table>

@@ -1,0 +1,12 @@
+C:\proyectoCiclo3\Hormona.App\Hormona.App.Dominio\obj\Debug\net6.0\Hormona.App.Dominio.csproj.AssemblyReference.cache
+C:\proyectoCiclo3\Hormona.App\Hormona.App.Dominio\obj\Debug\net6.0\Hormona.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyectoCiclo3\Hormona.App\Hormona.App.Dominio\obj\Debug\net6.0\Hormona.App.Dominio.AssemblyInfoInputs.cache
+C:\proyectoCiclo3\Hormona.App\Hormona.App.Dominio\obj\Debug\net6.0\Hormona.App.Dominio.AssemblyInfo.cs
+C:\proyectoCiclo3\Hormona.App\Hormona.App.Dominio\obj\Debug\net6.0\Hormona.App.Dominio.csproj.CoreCompileInputs.cache
+C:\proyectoCiclo3\Hormona.App\Hormona.App.Dominio\bin\Debug\net6.0\Hormona.App.Dominio.deps.json
+C:\proyectoCiclo3\Hormona.App\Hormona.App.Dominio\bin\Debug\net6.0\Hormona.App.Dominio.dll
+C:\proyectoCiclo3\Hormona.App\Hormona.App.Dominio\bin\Debug\net6.0\Hormona.App.Dominio.pdb
+C:\proyectoCiclo3\Hormona.App\Hormona.App.Dominio\obj\Debug\net6.0\Hormona.App.Dominio.dll
+C:\proyectoCiclo3\Hormona.App\Hormona.App.Dominio\obj\Debug\net6.0\refint\Hormona.App.Dominio.dll
+C:\proyectoCiclo3\Hormona.App\Hormona.App.Dominio\obj\Debug\net6.0\Hormona.App.Dominio.pdb
+C:\proyectoCiclo3\Hormona.App\Hormona.App.Dominio\obj\Debug\net6.0\ref\Hormona.App.Dominio.dll
